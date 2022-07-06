@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  width: 150px;
+  justify-content: space-around;
+}
+.spanSize {
+  width: 30px;
+  height: 30px;
+}
+.isOnline {
+  composes: spanSize;
+  background-color: green;
+}
+.isNotOnline {
+  composes: spanSize;
+  background-color: red;
+}
